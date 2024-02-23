@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">yummy</string>
+    <string name="name_shop">Nama Toko</string>
+    <string name="address_shop">Alamat toko</string>
+    <string name="rating_shop">4.2</string>
+    <string name="distance_shop">4.5 km</string>
+    <string name="about">About</string>
+    <string name="name_profil">Ade Iqbal</string>
+    <string name="email_profil">adeiqbal1305@gmail.com</string>
+    <string name="address_label">Alamat</string>
+    <string name="rating_label">Rating</string>
+    <string name="telphone_label">No. Telepon</string>
+    <string name="telphone_shop">081266702006</string>
+    <string name="website_label">Website</string>
+    <string name="website_shop">https://kiosk-restaurant.business.site/</string>
+    <string name="description_shop_label">Deskripsi</string>
+    <string name="desription_shop"><![CDATA[Menantea, brand teh buah modern di Indonesia yang diprakarsai oleh Hendy Setiono              (Founder of BabaRafi Enterprise), Sylvia (Founder of Kopi Soe), Bisma Adi Putra              (Founder & CEO of Masakin Group), Jehian Panangian Sijabat (Direktur Utama Mantappu              Corp), dan Jerome Polin (Pendiri Mantappu Corp) hadir memberikan warna baru dengan              varian teh buah.             Menantea telah membuktikan kesuksesannya dengan terus melebarkan sayap hingga membuka              122 toko di 55 kota seluruh Indonesia hanya dalam kurun waktu tujuh bulan.]]></string>
+    <string name="brand">yummy</string>
+    <string name="image_desc"><![CDATA[gambar coffee & resto]]></string>
+</resources>

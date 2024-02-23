@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:clipToPadding="false"
+    tools:context=".DetailActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:id="@+id/img_shop_detail"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:scaleType="centerCrop"
+                tools:ignore="ImageContrastCheck"
+                tools:src="@tools:sample/avatars"
+                android:contentDescription="@string/image_desc" />
+
+            <TextView
+                android:id="@+id/tv_name_shop_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:ellipsize="end"
+                android:ems="3"
+                android:fontFamily="@font/roboto_bold"
+                android:gravity="center_vertical"
+                android:maxLines="1"
+                android:paddingHorizontal="16dp"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                tools:ignore="TextContrastCheck"
+                tools:text="@string/name_shop" />
+
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/address_label"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:paddingHorizontal="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_address_shop_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:ems="3"
+            android:fontFamily="@font/roboto_regular"
+            android:maxLines="2"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="@string/address_shop"
+            android:paddingHorizontal="16dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rating_label"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:paddingHorizontal="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_rating_shop_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:paddingHorizontal="16dp"
+            tools:text="@string/rating_shop"
+            app:drawableStartCompat="@drawable/ic_baseline_star_rate_15" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/telphone_label"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:paddingHorizontal="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_telphone_shop_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:paddingHorizontal="16dp"
+            tools:text="@string/telphone_shop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/website_label"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:paddingHorizontal="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_website_shop_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:paddingHorizontal="16dp"
+            tools:text="@string/website_shop"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/description_shop_label"
+            android:fontFamily="@font/roboto_bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:paddingHorizontal="16dp"/>
+
+        <TextView
+            android:id="@+id/tv_description_shop_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_regular"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:justificationMode="inter_word"
+            android:paddingHorizontal="16dp"
+            tools:text="@string/desription_shop"
+            tools:targetApi="o" />
+
+    </LinearLayout>
+
+</ScrollView>

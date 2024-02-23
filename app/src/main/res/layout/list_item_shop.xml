@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="7dp"
+    android:background="@drawable/background_list_shop"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/img_shop"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="centerCrop"
+        app:riv_corner_radius="10dp"
+        tools:ignore="ImageContrastCheck"
+        tools:src="@tools:sample/avatars"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_name_shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:ems="3"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto_bold"
+            tools:text="@string/name_shop" />
+
+        <TextView
+            android:id="@+id/tv_address_shop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:ems="3"
+            android:maxLines="1"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:fontFamily="@font/roboto_regular"
+            tools:text="@string/address_shop" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+            <TextView
+                android:id="@+id/tv_rating_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/tv_distance_shop"
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                app:drawableStartCompat="@drawable/ic_baseline_star_rate_15"
+                tools:ignore="TextContrastCheck"
+                tools:text="@string/rating_shop" />
+
+            <TextView
+                android:id="@+id/tv_distance_shop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:fontFamily="@font/roboto_medium"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:text="@string/distance_shop" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
